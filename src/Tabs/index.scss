@@ -1,0 +1,35 @@
+.tab-com {
+    --black-color-30: #0000004d;
+    --white-color-50: #ffffff80;
+    --main-color-8: #ff009d14;
+    --main-color-50: #ff009d80;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 24px;
+    height: 32px;
+    background: var(--black-color-30) 0% 0% no-repeat padding-box;
+    color: var(--white-color-50);
+    .tab-item {
+        z-index: 2;
+        text-align: center;
+        width: var(--item-width);
+        cursor: pointer;
+    }
+    &::after {
+        content: '';
+        width: calc(var(--item-width));
+        height: inherit;
+        background: transparent linear-gradient(181deg, var(--main-color-8) 0%, var(--main-color-50) 100%) 0%
+            0% no-repeat padding-box;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 24px;
+        transition: 0.3s all cubic-bezier(0.42, 0, 0.32, 1.6);
+        transform: translateX(calc(var(--active-left) * 100%));
+    }
+    .tab-item-active {
+        color: var(--white-color-100);
+    }
+}
