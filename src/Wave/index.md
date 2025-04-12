@@ -10,7 +10,7 @@ import { useState } from 'react';
 export default () => {
   return (
     <>
-      <Wave>圣诞节挥洒的叫啥</Wave>
+      <Wave>hello </Wave>
     </>
   );
 };
