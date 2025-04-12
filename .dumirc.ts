@@ -4,8 +4,8 @@ import type { SiteThemeConfig } from 'dumi-theme-antd-style';
 import { homepage, name } from './package.json';
 
 const themeConfig: SiteThemeConfig = {
-  name: 'react-shuang',
-  logo: 'https://gw.alipayobjects.com/zos/hitu-asset/c88e3678-6900-4289-8538-31367c2d30f2/hitu-1609235995955-image.png',
+  name,
+  logo: 'https://github.githubassets.com/favicons/favicon-dark.svg',
 
   socialLinks: { github: homepage },
   apiHeader: {
@@ -19,7 +19,7 @@ const themeConfig: SiteThemeConfig = {
 export default defineConfig({
   themeConfig,
   html2sketch: {},
-  favicons: ['https://gw.alipayobjects.com/zos/hitu-asset/c88e3678-6900-4289-8538-31367c2d30f2/hitu-1609235995955-image.png'],
+  favicons: ['https://github.githubassets.com/favicons/favicon-dark.svg'],
   // locales: [
   //   { id: 'en-US', name: 'English' },
   //   { id: 'zh-CN', name: '中文' },

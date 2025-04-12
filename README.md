@@ -5,9 +5,9 @@
 
 A react library developed with dumi
 
-## Usage
+## Install
 
-TODO
+npm install react-shuang
 
 ## Options
 
