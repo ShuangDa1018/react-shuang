@@ -14,14 +14,12 @@ loading.
 import { NumberScroll } from 'react-components-s';
 import { useState } from 'react';
 export default () => {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   return (
     <>
       <NumberScroll value="123,456,789.00" loading={loading} />
-      <button onClick={() => setLoading(!loading)}>
-        {loading ? 'stop' : 'start'}
-      </button>
+      <button onClick={() => setLoading(!loading)}>{loading ? 'stop' : 'start'}</button>
     </>
   );
 };
