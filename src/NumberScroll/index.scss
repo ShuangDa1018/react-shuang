@@ -1,0 +1,32 @@
+.numbers-container-ignore {
+    height: var(--fontSize);
+    line-height: var(--fontSize);
+    .numbers-box-ignore {
+        height: var(--fontSize);
+        overflow-y: hidden;
+        font-size: var(--fontSize);
+        display: inline-block;
+        span {
+            font-size: var(--fontSize);
+            font-weight: 600;
+            display: block;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            label {
+                width: 100%;
+                display: inline-block;
+            }
+        }
+    }
+    @keyframes scrollNumber {
+        0% {
+            transform: translateY(0px);
+        }
+    }
+    @keyframes scrollLoading {
+        100% {
+            transform: translateY(calc(var(--number) * var(--fontSize)));
+        }
+    }
+}
