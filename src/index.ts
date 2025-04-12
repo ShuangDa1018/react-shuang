@@ -1,3 +1,4 @@
-export { default as CheckBox } from './CheckBox';
-export { default as NumberScroll } from './NumberScroll';
-export { default as ShinyText } from './ShinyText';
+export * from './CheckBox';
+export * from './NumberScroll';
+export * from './Ripple';
+export * from './ShinyText';

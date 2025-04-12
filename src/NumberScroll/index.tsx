@@ -1,4 +1,4 @@
-import React, { CSSProperties, type FC } from 'react';
+import { CSSProperties, type FC } from 'react';
 import './index.scss';
 function randomNumber(n: number, m: number) {
   const random = Math.floor(Math.random() * (m - n + 1) + n);
@@ -9,7 +9,7 @@ interface NumberScrollProps {
   fontSize?: string;
   loading?: boolean;
 }
-const NumberScroll: FC<NumberScrollProps> = (props) => {
+export const NumberScroll: FC<NumberScrollProps> = (props) => {
   const { value, fontSize = '16px', loading } = props;
   const tempNumberArray = String(value).split('');
   const calcStyle = (number: number) => {
@@ -34,10 +34,7 @@ const NumberScroll: FC<NumberScrollProps> = (props) => {
     return style;
   };
   return (
-    <div
-      className="numbers-container-ignore"
-      style={{ '--fontSize': fontSize } as CSSProperties}
-    >
+    <div className="numbers-container-ignore" style={{ '--fontSize': fontSize } as CSSProperties}>
       {tempNumberArray.map((number, index) => {
         return (
           <div className="numbers-box-ignore" key={index}>
@@ -78,5 +75,3 @@ const NumberScroll: FC<NumberScrollProps> = (props) => {
     </div>
   );
 };
-
-export default NumberScroll;
