@@ -1,7 +1,7 @@
-# react-components-s
+# react-shuang
 
-[![NPM version](https://img.shields.io/npm/v/react-components-s.svg?style=flat)](https://npmjs.org/package/react-components-s)
-[![NPM downloads](http://img.shields.io/npm/dm/react-components-s.svg?style=flat)](https://npmjs.org/package/react-components-s)
+[![NPM version](https://img.shields.io/npm/v/react-shuang.svg?style=flat)](https://npmjs.org/package/react-shuang)
+[![NPM downloads](http://img.shields.io/npm/dm/react-shuang.svg?style=flat)](https://npmjs.org/package/react-shuang)
 
 A react library developed with dumi
 
@@ -41,4 +41,5 @@ $ pnpm run doctor
 ## LICENSE
 
 MIT
-# react-components-s
+
+# react-shuang

@@ -1,15 +1,15 @@
 import { defineConfig } from 'dumi';
 import type { SiteThemeConfig } from 'dumi-theme-antd-style';
 
-// import { homepage, name } from './package.json';
+import { homepage, name } from './package.json';
 
 const themeConfig: SiteThemeConfig = {
-  name: 'react-components-s',
+  name: 'react-shuang',
   logo: 'https://gw.alipayobjects.com/zos/hitu-asset/c88e3678-6900-4289-8538-31367c2d30f2/hitu-1609235995955-image.png',
 
-  socialLinks: { github: 'homepage' },
+  socialLinks: { github: homepage },
   apiHeader: {
-    pkg: 'name',
+    pkg: name,
     sourceUrl: `{github}/tree/master/src/components/{atomId}/index.tsx`,
     docUrl: `{github}/tree/master/example/docs/components/{atomId}.{locale}.md`,
   },
@@ -19,9 +19,7 @@ const themeConfig: SiteThemeConfig = {
 export default defineConfig({
   themeConfig,
   html2sketch: {},
-  favicons: [
-    'https://gw.alipayobjects.com/zos/hitu-asset/c88e3678-6900-4289-8538-31367c2d30f2/hitu-1609235995955-image.png',
-  ],
+  favicons: ['https://gw.alipayobjects.com/zos/hitu-asset/c88e3678-6900-4289-8538-31367c2d30f2/hitu-1609235995955-image.png'],
   // locales: [
   //   { id: 'en-US', name: 'English' },
   //   { id: 'zh-CN', name: '中文' },

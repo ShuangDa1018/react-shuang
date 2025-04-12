@@ -1,6 +1,6 @@
 ---
 hero:
-  title: react-components-s
+  title: react-shuang
   description: Ant Design Style 文档站主题包
 actions:
   - text: 开始使用

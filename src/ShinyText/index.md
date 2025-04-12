@@ -5,7 +5,7 @@ This is an Shiny Text component.
 loading.
 
 ```jsx
-import { ShinyText } from 'react-components-s';
+import { ShinyText } from 'react-shuang';
 import { useState } from 'react';
 export default () => {
   return (

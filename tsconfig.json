@@ -9,8 +9,8 @@
     "resolveJsonModule": true,
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "react-components-s": ["src"],
-      "react-components-s/*": ["src/*", "*"]
+      "react-shuang": ["src"],
+      "react-shuang/*": ["src/*", "*"]
     }
   },
   "include": [".dumirc.ts", "src/**/*"]

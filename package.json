@@ -1,7 +1,8 @@
 {
-  "name": "react-components-s",
+  "name": "react-shuang",
   "version": "0.0.1",
   "description": "A react library developed with dumi",
+  "homepage": "https://github.com/ShuangDa1018/react-shuang",
   "license": "MIT",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
