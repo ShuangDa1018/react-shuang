@@ -5,6 +5,8 @@ export * from './CheckBox';
 export * from './Fireworks';
 export * from './FlipCard';
 export * from './HoverGallery';
+export * from './IconButton';
+export * from './ModernButton';
 export * from './NumberScroll';
 export * from './Ripple';
 export * from './ShinyText';

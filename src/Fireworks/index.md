@@ -1,6 +1,6 @@
 # FireWorks
 
-This is an FireWorks component. please click see the animation
+This is an FireWorks component. The product use is normal, but the documentation is abnormal
 
 ```jsx
 import { FireWorks } from 'react-shuang';
