@@ -1,5 +1,6 @@
 export * from './Button';
 export * from './CheckBox';
+export * from './FlipCard';
 export * from './NumberScroll';
 export * from './Ripple';
 export * from './ShinyText';
