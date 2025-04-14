@@ -11,5 +11,7 @@ export * from './NumberScroll';
 export * from './Ripple';
 export * from './ShinyText';
 export * from './SplitText';
+export * from './StarButton';
 export * from './Tabs';
+export * from './TransformCard';
 export * from './Wave';

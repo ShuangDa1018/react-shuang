@@ -6,7 +6,6 @@ This is an Ripple component. please click see the animation
 import { addRipple, deleteRipple } from 'react-shuang';
 import { useState, useEffect, useRef } from 'react';
 export default () => {
-  const [checked, setChecked] = useState(true);
   const domRef = useRef(null);
   useEffect(() => {
     addRipple(domRef.current);
