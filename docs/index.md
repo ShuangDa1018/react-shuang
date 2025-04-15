@@ -1,51 +1,54 @@
 ---
 hero:
-  title: react-shuang
-  description: Ant Design Style 文档站主题包
+  title: React  - <b>React Shuang</b>
+  description: react-shuang theme similar to antd v5 website
 actions:
-  - text: 开始使用
-    link: /guide
+  - text: Get Started
+    link: /components
   - text: Github
-    link: https://github.com/arvinxx/dumi-theme-antd-style
+    link: https://github.com/ShuangDa1018/react-shuang
     openExternal: true
 
 features:
-  - title: 现代化主题风格
+  - title: Modern Theme Style
     image: 💠
-    description: 本主题包采用了流动色、毛玻璃、光影质感、自然动效等现代化的设计表现手法，将界面以更加简约、美观的方式呈现，使得文档更加直观、易读、易用
-    row: 6
+    description: This theme package adopts modern design techniques such as fluid colors, frosted glass, light and shadow textures, natural dynamic effects, presenting the interface in a more concise and beautiful way, making the documentation more intuitive, readable, and user-friendly.
+    row: 8
 
-  - title: 基于 Ant Design 与 CSSinJS
-    description: 本主题包使用 antd 作为基础组件库，并使用了 CSSinJS 实现样式方案，帮助更好地控制样式的细节，提高样式的复用性和可维护性。底层使用了 antd-style 样式库，在书写样式上更加灵活、可读、易于维护。<quotient>本主题包算是开发 antd-style 时的一个副产物</quotient>
-    link: /guide/style
+  - title: Based on Ant Design and CSSinJS
+    description: This theme package uses antd as the basic component library and utilizes CSSinJS to implement the style scheme, helping to better control the details of the style, and improve the reusability and maintainability of the style. It uses the antd-style style library at the bottom, making the style writing more flexible, readable, and easy to maintain. <quotient>This theme package can be considered as a by-product of developing antd-style</quotient>
+    link: /components
     imageType: light
     image: https://gw.alipayobjects.com/zos/hitu-asset/c88e3678-6900-4289-8538-31367c2d30f2/hitu-1609235995955-image.png
-    row: 9
+    row: 11
 
-  - title: 亮暗色主题模式一键切换
-    link: /guide/theme
-    description: 本文档基于 antd v5 自定义了亮色与暗色主题算法，默认提供美观易用的亮暗色主题。用户可以根据自己的喜好选择主题模式，在不同的光线环境下都能获得良好的阅读体验。
+  - title: One-Click Switch between Light and Dark Theme Modes
+    link: /components
+    description: This documentation customizes light and dark theme algorithms based on antd v5, providing aesthetically pleasing and user-friendly light and dark themes by default. Users can choose the theme mode according to their preferences, and obtain a good reading experience in different lighting environments.
     image: https://mdn.alipayobjects.com/huamei_rqvucu/afts/img/A*8KE7T7l39J0AAAAAAAAAAAAADoN6AQ/original
     imageType: primary
+    row: 10
 
-  - title: 精美的语法高亮
-    description: 本主题包提供准确、精美的语法高亮特性。底层采用了现代化的语法高亮库 Shiki 与 Prism，并提供了丰富的代码高亮方案，帮助用户更好地阅读代码 <quotient>后续会考虑支持代码块片段高亮、关键词高亮等特性</quotient>
-    link: /guide/syntax-highlighter
+  - title: Exquisite Syntax Highlighting
+    description: This theme package provides accurate and exquisite syntax highlighting features. It uses modern syntax highlighting libraries Shiki and Prism at the bottom, and provides rich code highlighting schemes to help users better read the code. <quotient>Subsequent consideration will be given to supporting features such as code block segment highlighting and keyword highlighting</quotient>
+    link: /components
     image: https://mdn.alipayobjects.com/huamei_rqvucu/afts/img/A*1qLNRrRGFsQAAAAAAAAAAAAADoN6AQ/original
     imageType: primary
-    row: 9
+    row: 11
 
-  - title: 组件灵活复用
-    description: 本主题包为本地主题定制提供了很高的灵活度，默认导出了主题包中的精品组件，可以将组件作为独立的模块进行复用，开发者可以在 dumi 本地主题包中自由组合使用
+  - title: Flexible Component Reusability
+    description: This theme package provides high flexibility for local theme customization, exporting high-quality components from the theme package by default, which can be reused as independent modules. Developers can freely combine and use the components in the dumi local theme package.
     image: https://mdn.alipayobjects.com/huamei_rqvucu/afts/img/A*6sjjRa7lLhAAAAAAAAAAAAAADoN6AQ/original
     imageType: primary
     link: /components
-    row: 8
+    row: 9
 
-  - title: 移动端适配良好
-    description: 本主题包对移动端适配良好，基于 CSSinJS 的灵活样式方案，多套布局实现轻而易举。用户多端操作体验一致且顺滑
+  - title: Good Adaptation for Mobile Devices
+    description: This theme package is well adapted for mobile devices, with multiple layout implementations made easy based on the flexible style scheme of CSSinJS. Users can experience consistent and smooth operations across multiple platforms.
     image: 📱
     imageType: light
-    row: 6
+    row: 8
     hero: true
 ---
+
+<embed src="../README.md"></embed>

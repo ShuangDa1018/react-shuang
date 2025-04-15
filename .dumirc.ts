@@ -20,10 +20,10 @@ export default defineConfig({
   themeConfig,
   html2sketch: {},
   favicons: ['https://github.githubassets.com/favicons/favicon-dark.svg'],
-  // locales: [
-  //   { id: 'en-US', name: 'English' },
-  //   { id: 'zh-CN', name: '中文' },
-  // ],
+  locales: [
+    { id: 'en-US', name: 'English' },
+    // { id: 'zh-CN', name: '中文' },
+  ],
   alias: {
     // 'dumi-theme-antd-style': path.join(__dirname, '../src'),
   },

@@ -1,4 +1,5 @@
 export * from './BackIcon';
+export * from './BorderCard';
 export * from './Button';
 export * from './CardSpotlight';
 export * from './CheckBox';
