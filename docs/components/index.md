@@ -3,11 +3,14 @@ order: 0
 title: Overview
 apiHeader: false
 nav:
-  title: Components
   order: 4
 ---
 
-# Install
+## Guide
+
+如果您喜欢，我们 [github](https://github.com/ShuangDa1018/react-shuang/) 需要你的[star](https://github.com/ShuangDa1018/react-shuang/).
+
+## Install
 
 ```
 npm install react-shuang

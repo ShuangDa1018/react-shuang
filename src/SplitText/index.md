@@ -1,6 +1,6 @@
 # SplitText
 
-This is an SplitText component. please click see the animation
+This is an SplitText component. this one code is hard more than Split2Text
 
 ```jsx
 import { SplitText } from 'react-shuang';
