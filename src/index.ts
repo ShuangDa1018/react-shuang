@@ -11,6 +11,7 @@ export * from './ModernButton';
 export * from './NumberScroll';
 export * from './Ripple';
 export * from './ShinyText';
+export * from './Split2Text';
 export * from './SplitText';
 export * from './StarButton';
 export * from './Tabs';
