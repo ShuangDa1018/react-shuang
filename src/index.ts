@@ -7,6 +7,7 @@ export * from './Fireworks';
 export * from './FlipCard';
 export * from './HoverGallery';
 export * from './IconButton';
+export * from './Image';
 export * from './ModernButton';
 export * from './NumberScroll';
 export * from './Ripple';
