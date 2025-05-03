@@ -57,11 +57,8 @@ export const Image = staged<ImageProps>((p) => {
   const ref = useRef<HTMLDivElement>(null);
   const imgRef = useRef<HTMLImageElement>(null);
 
-  let src: string | undefined = props.src;
-  let srcSet: string | undefined = props.srcSet;
-
-  src = blobUrl;
-  srcSet = blobUrl;
+  let src: string | undefined = blobUrl;
+  let srcSet: string | undefined = blobUrl;
 
   useIsomorphicUpdateLayoutEffect(() => {
     setLoaded(false);
@@ -74,9 +71,9 @@ export const Image = staged<ImageProps>((p) => {
   };
   useEffect(() => {
     // for nextjs ssr
-    if (imgRef.current?.complete) {
-      setLoaded(true);
-    }
+    // if (imgRef.current?.complete) {
+    //   setLoaded(true);
+    // }
     if (!props.lazy) {
       onActive();
     }

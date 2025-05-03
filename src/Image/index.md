@@ -4,7 +4,6 @@ Previewable pictures. Store in the browser using the blob data format to avoid m
 
 ## When to Use
 
--
 - Use when you need to show pictures.
 - Display loading when loading large images or fault-tolerant handling when loading fails.
 
@@ -12,14 +11,25 @@ Previewable pictures. Store in the browser using the blob data format to avoid m
 import { Image } from 'react-shuang';
 const demoSrc =
   'https://images.unsplash.com/photo-1567945716310-4745a6b7844b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=60';
+const url = 'https://picsum.photos/5000';
 export default () => {
   return (
     <>
-      <Image src={demoSrc} width={100} height={100} fit="fill" />
-      <Image src={demoSrc} width={100} height={100} fit="contain" />
-      <Image src={demoSrc} width={100} height={100} fit="cover" />
+      <Image src={url} width={100} height={100} fit="fill" />
+      <Image src={url} width={100} height={100} fit="contain" />
+      <Image src={url} width={100} height={100} fit="cover" />
+      <Image src={url} width={100} height={100} fit="scale-down" />
+      <Image src={url} width={100} height={100} fit="scale-down" />
+      <Image src={url} width={100} height={100} fit="scale-down" />
+      <Image src={url} width={100} height={100} fit="scale-down" />
+      <Image src={url + 1} width={100} height={100} fit="scale-down" />
       <Image src={demoSrc} width={100} height={100} fit="scale-down" />
-      <Image src={demoSrc} width={100} height={100} fit="none" />
+      <Image src={url} width={100} height={100} fit="scale-down" />
+      <Image src={url} width={100} height={100} fit="scale-down" />
+      <Image src={url} width={100} height={100} fit="scale-down" />
+      <Image src={url} width={100} height={100} fit="scale-down" />
+      <Image src={url} width={100} height={100} fit="scale-down" />
+      <Image src={demoSrc} width={100} height={100} fit="none" lazy />
     </>
   );
 };
