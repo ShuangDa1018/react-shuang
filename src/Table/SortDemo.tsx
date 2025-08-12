@@ -7,7 +7,7 @@ export function SortDemo() {
   const maxNum = 8;
   const columns: TableColumn[] = [
     {
-      name: '号码',
+      name: 'number',
       key: 'lotteryItem',
       render: (text: number) => (
         <div className="number-box">
@@ -17,7 +17,7 @@ export function SortDemo() {
       sorter: true,
     },
     {
-      name: `2期出现次数`,
+      name: `hitsCount`,
       key: 'hitsCount',
       style: { paddingLeft: 0 },
       render: (text: string) => (
@@ -29,12 +29,12 @@ export function SortDemo() {
       sorter: true,
     },
     {
-      name: '当前遗漏',
+      name: 'currentMissing',
       key: 'currentMissing',
       sorter: true,
     },
     {
-      name: '平均遗漏',
+      name: 'avgMissing',
       key: 'avgMissing',
       sorter: true,
     },

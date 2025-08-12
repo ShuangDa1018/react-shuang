@@ -1,7 +1,7 @@
 {
   "lotteryTrendList": [
     {
-      "periodNum": "2025212期",
+      "periodNum": "2025212",
       "onePlace": {
         "lotteryItem": 4,
         "lotteryMissingCount": [8, 54, 5, 3, 0, 2, 31, 16, 1, 7]
@@ -16,7 +16,7 @@
       }
     },
     {
-      "periodNum": "2025211期",
+      "periodNum": "2025211",
       "onePlace": {
         "lotteryItem": 8,
         "lotteryMissingCount": [7, 53, 4, 2, 3, 1, 30, 15, 0, 6]
@@ -31,7 +31,7 @@
       }
     },
     {
-      "periodNum": "2025210期",
+      "periodNum": "2025210",
       "onePlace": {
         "lotteryItem": 5,
         "lotteryMissingCount": [6, 52, 3, 1, 2, 0, 29, 14, 9, 5]
@@ -46,7 +46,7 @@
       }
     },
     {
-      "periodNum": "2025209期",
+      "periodNum": "2025209",
       "onePlace": {
         "lotteryItem": 3,
         "lotteryMissingCount": [5, 51, 2, 0, 1, 39, 28, 13, 8, 4]
@@ -61,7 +61,7 @@
       }
     },
     {
-      "periodNum": "2025208期",
+      "periodNum": "2025208",
       "onePlace": {
         "lotteryItem": 4,
         "lotteryMissingCount": [4, 50, 1, 34, 0, 38, 27, 12, 7, 3]
@@ -76,7 +76,7 @@
       }
     },
     {
-      "periodNum": "2025207期",
+      "periodNum": "2025207",
       "onePlace": {
         "lotteryItem": 2,
         "lotteryMissingCount": [3, 49, 0, 33, 1, 37, 26, 11, 6, 2]
@@ -91,7 +91,7 @@
       }
     },
     {
-      "periodNum": "2025206期",
+      "periodNum": "2025206",
       "onePlace": {
         "lotteryItem": 4,
         "lotteryMissingCount": [2, 48, 13, 32, 0, 36, 25, 10, 5, 1]
@@ -106,7 +106,7 @@
       }
     },
     {
-      "periodNum": "2025205期",
+      "periodNum": "2025205",
       "onePlace": {
         "lotteryItem": 9,
         "lotteryMissingCount": [1, 47, 12, 31, 11, 35, 24, 9, 4, 0]
@@ -121,7 +121,7 @@
       }
     },
     {
-      "periodNum": "2025204期",
+      "periodNum": "2025204",
       "onePlace": {
         "lotteryItem": 0,
         "lotteryMissingCount": [0, 46, 11, 30, 10, 34, 23, 8, 3, 2]
@@ -136,7 +136,7 @@
       }
     },
     {
-      "periodNum": "2025203期",
+      "periodNum": "2025203",
       "onePlace": {
         "lotteryItem": 0,
         "lotteryMissingCount": [0, 45, 10, 29, 9, 33, 22, 7, 2, 1]
@@ -151,7 +151,7 @@
       }
     },
     {
-      "periodNum": "2025202期",
+      "periodNum": "2025202",
       "onePlace": {
         "lotteryItem": 9,
         "lotteryMissingCount": [5, 44, 9, 28, 8, 32, 21, 6, 1, 0]
@@ -166,7 +166,7 @@
       }
     },
     {
-      "periodNum": "2025201期",
+      "periodNum": "2025201",
       "onePlace": {
         "lotteryItem": 8,
         "lotteryMissingCount": [4, 43, 8, 27, 7, 31, 20, 5, 0, 1]
@@ -181,7 +181,7 @@
       }
     },
     {
-      "periodNum": "2025200期",
+      "periodNum": "2025200",
       "onePlace": {
         "lotteryItem": 9,
         "lotteryMissingCount": [3, 42, 7, 26, 6, 30, 19, 4, 2, 0]
@@ -196,7 +196,7 @@
       }
     },
     {
-      "periodNum": "2025199期",
+      "periodNum": "2025199",
       "onePlace": {
         "lotteryItem": 9,
         "lotteryMissingCount": [2, 41, 6, 25, 5, 29, 18, 3, 1, 0]
@@ -211,7 +211,7 @@
       }
     },
     {
-      "periodNum": "2025198期",
+      "periodNum": "2025198",
       "onePlace": {
         "lotteryItem": 8,
         "lotteryMissingCount": [1, 40, 5, 24, 4, 28, 17, 2, 0, 3]
@@ -226,7 +226,7 @@
       }
     },
     {
-      "periodNum": "2025197期",
+      "periodNum": "2025197",
       "onePlace": {
         "lotteryItem": 0,
         "lotteryMissingCount": [0, 39, 4, 23, 3, 27, 16, 1, 5, 2]
@@ -241,7 +241,7 @@
       }
     },
     {
-      "periodNum": "2025196期",
+      "periodNum": "2025196",
       "onePlace": {
         "lotteryItem": 7,
         "lotteryMissingCount": [8, 38, 3, 22, 2, 26, 15, 0, 4, 1]
@@ -256,7 +256,7 @@
       }
     },
     {
-      "periodNum": "2025195期",
+      "periodNum": "2025195",
       "onePlace": {
         "lotteryItem": 9,
         "lotteryMissingCount": [7, 37, 2, 21, 1, 25, 14, 8, 3, 0]
@@ -271,7 +271,7 @@
       }
     },
     {
-      "periodNum": "2025194期",
+      "periodNum": "2025194",
       "onePlace": {
         "lotteryItem": 4,
         "lotteryMissingCount": [6, 36, 1, 20, 0, 24, 13, 7, 2, 5]
@@ -286,7 +286,7 @@
       }
     },
     {
-      "periodNum": "2025193期",
+      "periodNum": "2025193",
       "onePlace": {
         "lotteryItem": 2,
         "lotteryMissingCount": [5, 35, 0, 19, 3, 23, 12, 6, 1, 4]
@@ -301,7 +301,7 @@
       }
     },
     {
-      "periodNum": "2025192期",
+      "periodNum": "2025192",
       "onePlace": {
         "lotteryItem": 8,
         "lotteryMissingCount": [4, 34, 1, 18, 2, 22, 11, 5, 0, 3]
@@ -316,7 +316,7 @@
       }
     },
     {
-      "periodNum": "2025191期",
+      "periodNum": "2025191",
       "onePlace": {
         "lotteryItem": 2,
         "lotteryMissingCount": [3, 33, 0, 17, 1, 21, 10, 4, 9, 2]
@@ -331,7 +331,7 @@
       }
     },
     {
-      "periodNum": "2025190期",
+      "periodNum": "2025190",
       "onePlace": {
         "lotteryItem": 4,
         "lotteryMissingCount": [2, 32, 4, 16, 0, 20, 9, 3, 8, 1]
@@ -346,7 +346,7 @@
       }
     },
     {
-      "periodNum": "2025189期",
+      "periodNum": "2025189",
       "onePlace": {
         "lotteryItem": 9,
         "lotteryMissingCount": [1, 31, 3, 15, 4, 19, 8, 2, 7, 0]
@@ -361,7 +361,7 @@
       }
     },
     {
-      "periodNum": "2025188期",
+      "periodNum": "2025188",
       "onePlace": {
         "lotteryItem": 0,
         "lotteryMissingCount": [0, 30, 2, 14, 3, 18, 7, 1, 6, 4]
@@ -376,7 +376,7 @@
       }
     },
     {
-      "periodNum": "2025187期",
+      "periodNum": "2025187",
       "onePlace": {
         "lotteryItem": 7,
         "lotteryMissingCount": [7, 29, 1, 13, 2, 17, 6, 0, 5, 3]
@@ -391,7 +391,7 @@
       }
     },
     {
-      "periodNum": "2025186期",
+      "periodNum": "2025186",
       "onePlace": {
         "lotteryItem": 2,
         "lotteryMissingCount": [6, 28, 0, 12, 1, 16, 5, 9, 4, 2]
@@ -406,7 +406,7 @@
       }
     },
     {
-      "periodNum": "2025185期",
+      "periodNum": "2025185",
       "onePlace": {
         "lotteryItem": 1,
         "lotteryMissingCount": [5, 27, 9, 11, 0, 15, 4, 8, 3, 1]

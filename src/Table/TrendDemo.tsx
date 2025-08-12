@@ -70,28 +70,28 @@ export function TrendDemo() {
     return data.concat([
       {
         key: 'hits',
-        periodNum: <span style={{ color: '#8A8A8A' }}>出现次数</span>,
+        periodNum: <span style={{ color: '#8A8A8A' }}>hits</span>,
         style_: { background: '#FEF3F1', color: '#262626' },
         list: hitsList[place],
         render_: true,
       },
       {
         key: 'avgMiss',
-        periodNum: <span style={{ color: '#8A8A8A' }}>平均遗漏</span>,
+        periodNum: <span style={{ color: '#8A8A8A' }}>avgMiss</span>,
         style_: { background: '#fff', color: '#262626' },
         list: avgMissList[place],
         render_: true,
       },
       {
         key: 'amxMiss',
-        periodNum: <span style={{ color: '#8A8A8A' }}>最大遗漏</span>,
+        periodNum: <span style={{ color: '#8A8A8A' }}>amxMiss</span>,
         style_: { background: '#FEF3F1', color: '#262626' },
         list: amxMissList[place],
         render_: true,
       },
       {
         key: 'repeat',
-        periodNum: <span style={{ color: '#8A8A8A' }}>最大连出</span>,
+        periodNum: <span style={{ color: '#8A8A8A' }}>repeat</span>,
         style_: { background: '#fff', color: '#262626' },
         list: repeatList[place],
         render_: true,
@@ -100,7 +100,7 @@ export function TrendDemo() {
   }, [baseTrend, showBottomStats, showMissingLayers, showPolyline, activeIndex]);
   const columns: TableColumn[] = [
     {
-      name: '期次',
+      name: 'number',
       key: 'periodNum',
       render: (text: any, record: Record<string, any>) => {
         return record.render_ ? text : text?.slice(4);
