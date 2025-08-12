@@ -1,0 +1,22 @@
+
+.render-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+}
+[data-layers='true'] {
+  background: rgba(63, 126, 255, 0.2);
+}
+.lottery-soil {
+  background: radial-gradient(95.09% 95.85% at 31.58% 13.89%, #e66e00 0%, #8c4400 71.02%);
+}
+.lottery-yellow {
+  background: radial-gradient(95.09% 95.85% at 31.58% 13.89%, #ffd5a1 0%, #ff9106 71.02%);
+}
+.lottery-green {
+  background: radial-gradient(95.09% 95.85% at 31.58% 13.89%, #32d995 0%, #33bc8e 71.02%);
+}
+.lottery-purple {
+  background: radial-gradient(95.09% 95.85% at 31.58% 13.89%, #9f5bff 0%, #7a50ee 71.02%);
+}

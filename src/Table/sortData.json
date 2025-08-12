@@ -1,0 +1,189 @@
+{
+  "periodNum": 100,
+  "onePlace": [
+    {
+      "lotteryItem": 0,
+      "hitsCount": 2,
+      "currentMissing": 8,
+      "avgMissing": 7
+    },
+    {
+      "lotteryItem": 1,
+      "hitsCount": 1,
+      "currentMissing": 0,
+      "avgMissing": 16
+    },
+    {
+      "lotteryItem": 2,
+      "hitsCount": 2,
+      "currentMissing": 4,
+      "avgMissing": 7
+    },
+    {
+      "lotteryItem": 3,
+      "hitsCount": 0,
+      "currentMissing": 0,
+      "avgMissing": 0
+    },
+    {
+      "lotteryItem": 4,
+      "hitsCount": 1,
+      "currentMissing": 5,
+      "avgMissing": 16
+    },
+    {
+      "lotteryItem": 5,
+      "hitsCount": 0,
+      "currentMissing": 0,
+      "avgMissing": 0
+    },
+    {
+      "lotteryItem": 6,
+      "hitsCount": 1,
+      "currentMissing": 7,
+      "avgMissing": 16
+    },
+    {
+      "lotteryItem": 7,
+      "hitsCount": 3,
+      "currentMissing": 1,
+      "avgMissing": 4
+    },
+    {
+      "lotteryItem": 8,
+      "hitsCount": 3,
+      "currentMissing": 2,
+      "avgMissing": 4
+    },
+    {
+      "lotteryItem": 9,
+      "hitsCount": 4,
+      "currentMissing": 0,
+      "avgMissing": 3
+    }
+  ],
+  "tenPlace": [
+    {
+      "lotteryItem": 0,
+      "hitsCount": 3,
+      "currentMissing": 0,
+      "avgMissing": 4
+    },
+    {
+      "lotteryItem": 1,
+      "hitsCount": 1,
+      "currentMissing": 3,
+      "avgMissing": 16
+    },
+    {
+      "lotteryItem": 2,
+      "hitsCount": 2,
+      "currentMissing": 7,
+      "avgMissing": 7
+    },
+    {
+      "lotteryItem": 3,
+      "hitsCount": 1,
+      "currentMissing": 11,
+      "avgMissing": 16
+    },
+    {
+      "lotteryItem": 4,
+      "hitsCount": 2,
+      "currentMissing": 1,
+      "avgMissing": 7
+    },
+    {
+      "lotteryItem": 5,
+      "hitsCount": 1,
+      "currentMissing": 12,
+      "avgMissing": 16
+    },
+    {
+      "lotteryItem": 6,
+      "hitsCount": 2,
+      "currentMissing": 1,
+      "avgMissing": 7
+    },
+    {
+      "lotteryItem": 7,
+      "hitsCount": 1,
+      "currentMissing": 8,
+      "avgMissing": 16
+    },
+    {
+      "lotteryItem": 8,
+      "hitsCount": 2,
+      "currentMissing": 4,
+      "avgMissing": 7
+    },
+    {
+      "lotteryItem": 9,
+      "hitsCount": 2,
+      "currentMissing": 5,
+      "avgMissing": 7
+    }
+  ],
+  "hundredPlace": [
+    {
+      "lotteryItem": 0,
+      "hitsCount": 1,
+      "currentMissing": 10,
+      "avgMissing": 16
+    },
+    {
+      "lotteryItem": 1,
+      "hitsCount": 2,
+      "currentMissing": 4,
+      "avgMissing": 7
+    },
+    {
+      "lotteryItem": 2,
+      "hitsCount": 2,
+      "currentMissing": 0,
+      "avgMissing": 7
+    },
+    {
+      "lotteryItem": 3,
+      "hitsCount": 1,
+      "currentMissing": 14,
+      "avgMissing": 16
+    },
+    {
+      "lotteryItem": 4,
+      "hitsCount": 2,
+      "currentMissing": 10,
+      "avgMissing": 7
+    },
+    {
+      "lotteryItem": 5,
+      "hitsCount": 1,
+      "currentMissing": 15,
+      "avgMissing": 16
+    },
+    {
+      "lotteryItem": 6,
+      "hitsCount": 3,
+      "currentMissing": 6,
+      "avgMissing": 4
+    },
+    {
+      "lotteryItem": 7,
+      "hitsCount": 3,
+      "currentMissing": 7,
+      "avgMissing": 4
+    },
+    {
+      "lotteryItem": 8,
+      "hitsCount": 2,
+      "currentMissing": 9,
+      "avgMissing": 7
+    },
+    {
+      "lotteryItem": 9,
+      "hitsCount": 0,
+      "currentMissing": 0,
+      "avgMissing": 0
+    }
+  ]
+}

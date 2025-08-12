@@ -1,0 +1,59 @@
+.base-trend {
+  background: linear-gradient(180deg, #fff 50%, #f5f3ff 100%);
+  .base-trend-header {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    padding: 4px;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 500;
+    border-top: 1px solid #f5f5f5;
+    color: var(--grey, #8a8a8a);
+    background: linear-gradient(180deg, #fff 50%, #f5f3ff 100%);
+  }
+  .base-btn {
+    padding: 3px 16px;
+    border-radius: 100px;
+    background: #f7f7ff;
+    line-height: normal;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  .base-btn-active {
+    color: #fff;
+    background: var(--main-gradient, linear-gradient(90deg, #dc9bff 0%, #4847eb 100%));
+  }
+  .number-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .number {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: radial-gradient(95.09% 95.85% at 31.58% 13.89%, #f47b5b 0%, #ea4f37 71.02%), #ffe4e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white, #fff);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+  }
+  .occurrence {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--middle-purple, #a699fe);
+    font-size: 13px;
+    .chart {
+      height: 16px;
+      transition: 0.3s;
+      border-radius: 0px 100px 100px 0px;
+      background: linear-gradient(90deg, rgba(166, 153, 254, 0.8) 0%, rgba(166, 153, 254, 0.5) 100%);
+    }
+  }
+}

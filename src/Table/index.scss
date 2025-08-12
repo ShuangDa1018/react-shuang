@@ -1,0 +1,76 @@
+.table-bet-com {
+  --bg: #f3f0ff;
+  width: 100%;
+  overflow-x: auto; /* 允许表格水平滚动 */
+  position: relative; /* 为固定列提供定位上下文 */
+  .record-list {
+    color: var(--grey, #8a8a8a);
+    border-collapse: collapse;
+    background: #fff;
+    width: 100%;
+    min-height: 200px;
+  }
+  .record-list-title {
+    position: sticky;
+    top: 0;
+    border-top: 1px solid #f5f5f5;
+  }
+  .record-list-row {
+  }
+  .record-list-col {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    border-right: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 6px 5.6px;
+    white-space: nowrap;
+  }
+  .list-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .sort-icon {
+      color: #c6c6fe;
+      display: flex;
+      flex-direction: column;
+      svg {
+        &:last-child {
+          transform: rotateX(180deg);
+        }
+        &[data-red='true'] {
+          color: #fa3334;
+        }
+      }
+    }
+  }
+  .text-hidden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .record-list-row-active {
+    background: rgba(238, 228, 192, 0.6) !important;
+  }
+
+  th:first-child,
+  td:first-child {
+    position: sticky; /* 使元素在滚动时固定定位 */
+    left: 1px; /* 固定在视口的右侧 */
+    z-index: 1; /* 确保固定列在滚动时始终可见 */
+    white-space: nowrap; /* 最后一列不换行，保持内容完整显示 */
+    background: #fff;
+  }
+  tbody {
+    tr:nth-child(2n-1) {
+      td {
+        background: var(--bg);
+      }
+    }
+  }
+  #loader-wrapper {
+    height: 224px;
+    margin: 0;
+  }
+
+}
