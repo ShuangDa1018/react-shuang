@@ -36,6 +36,7 @@ $ pnpm run docs:preview
 
 # check your project for potential problems
 $ pnpm run doctor
+
 ```
 
 ## LICENSE
